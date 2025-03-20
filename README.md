@@ -10,16 +10,12 @@ The 8-puzzle is a sliding tile puzzle consisting of a **3x3 grid** with **eight 
 
 Initial State:  
 | 7 | 1 | 4 |
-|---|---|---|
 | 3 | 6 | 5 |
-|---|---|---|
 | 2 | 8 | _ |
 
 Goal State:  
 | 1 | 2 | 3 |
-|---|---|---|
 | 4 | 5 | 6 |
-|---|---|---|
 | 7 | 8 | _ |
 
 ## Search Algorithms Implemented
