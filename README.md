@@ -9,14 +9,18 @@ The 8-puzzle is a sliding tile puzzle consisting of a **3x3 grid** with **eight 
 **Example**:  
 
 Initial State:  
-4  3  2
-5  6  1
-7  8  _
+| 7 | 1 | 4 |
+|---|---|---|
+| 3 | 6 | 5 |
+|---|---|---|
+| 2 | 8 | _ |
 
 Goal State:  
-1  2  3
-4  5  6
-7  8  _
+| 1 | 2 | 3 |
+|---|---|---|
+| 4 | 5 | 6 |
+|---|---|---|
+| 7 | 8 | _ |
 
 ## Search Algorithms Implemented
 1. **Depth-First Search (DFS)**: Explores as deep as possible before backtracking.  
@@ -29,9 +33,13 @@ Goal State:
    git clone https://github.com/dhruv-pharasi/8_Puzzle_AI.git
    ```
 2. Install dependencies (if needed):  
-   `pip install numpy`
+   ```bash
+   pip install numpy
+   ```
 3. Run the script:  
-   `python 8_puzzle.py`
+   ```bash
+   python 8_puzzle.py
+   ```
 
 ## Results
 - **DFS**: May not find the optimal solution and can get stuck in deep search branches.  
